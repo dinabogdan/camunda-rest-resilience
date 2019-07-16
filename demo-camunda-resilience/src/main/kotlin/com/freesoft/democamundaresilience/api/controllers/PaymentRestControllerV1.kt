@@ -5,25 +5,22 @@ import com.freesoft.democamundaresilience.api.model.CreateChargeResponse
 import org.springframework.web.bind.annotation.PutMapping
 import org.springframework.web.bind.annotation.RestController
 import org.springframework.web.client.RestTemplate
-import org.springframework.web.client.postForObject
 import java.util.*
-import javax.servlet.http.HttpServletResponse
 
 /**
  * First version: A simple REST Service Call
  */
 
 @RestController
-class PaymentRestControllerV1(private val restTemplate: RestTemplate){
+class PaymentRestControllerV1(private val restTemplate: RestTemplate) {
 
     companion object {
-        val stripeChargeUrl = "http://localhost:8099/charge"
+        const val stripeChargeUrl = "http://localhost:8099/charge"
     }
 
     @PutMapping(path = ["/api/payment/v1"])
-    fun retrievePayment(retrievePaymentPayload: String, response: HttpServletResponse): String {
+    fun retrievePayment(): String {
         val traceId = UUID.randomUUID().toString()
-        val customerId = "0815"
         val amount = 15L
 
         chargeCreditCard(amount)
