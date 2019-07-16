@@ -1,4 +1,4 @@
-package com.freesoft.democamundaresilience.infrastructure
+package com.freesoft.democamundaresilience.infrastructure.configurations
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
