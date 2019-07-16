@@ -12079,11 +12079,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\workspace\\demo-camunda-resilience-patterns\\demo-camunda-resilience-patterns.csproj",
+      "projectUniqueName": "e:\\workspace\\demo-camunda-resilience-patterns\\stripe-fake-service\\demo-camunda-resilience-patterns.csproj",
       "projectName": "demo-camunda-resilience-patterns",
-      "projectPath": "E:\\workspace\\demo-camunda-resilience-patterns\\demo-camunda-resilience-patterns.csproj",
+      "projectPath": "e:\\workspace\\demo-camunda-resilience-patterns\\stripe-fake-service\\demo-camunda-resilience-patterns.csproj",
       "packagesPath": "C:\\Users\\Bogdan.Dina\\.nuget\\packages\\",
-      "outputPath": "E:\\workspace\\demo-camunda-resilience-patterns\\obj\\",
+      "outputPath": "e:\\workspace\\demo-camunda-resilience-patterns\\stripe-fake-service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

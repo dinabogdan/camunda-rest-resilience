@@ -12,3 +12,17 @@ E:\workspace\demo-camunda-resilience-patterns\bin\Debug\netcoreapp2.2\demo-camun
 E:\workspace\demo-camunda-resilience-patterns\obj\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.RazorTargetAssemblyInfo.cache
 E:\workspace\demo-camunda-resilience-patterns\obj\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.dll
 E:\workspace\demo-camunda-resilience-patterns\obj\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.pdb
+E:\workspace\demo-camunda-resilience-patterns\stripe-fake-service\bin\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.deps.json
+E:\workspace\demo-camunda-resilience-patterns\stripe-fake-service\bin\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.runtimeconfig.json
+E:\workspace\demo-camunda-resilience-patterns\stripe-fake-service\bin\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.runtimeconfig.dev.json
+E:\workspace\demo-camunda-resilience-patterns\stripe-fake-service\bin\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.dll
+E:\workspace\demo-camunda-resilience-patterns\stripe-fake-service\bin\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.pdb
+E:\workspace\demo-camunda-resilience-patterns\stripe-fake-service\obj\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.csprojAssemblyReference.cache
+E:\workspace\demo-camunda-resilience-patterns\stripe-fake-service\obj\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.csproj.CoreCompileInputs.cache
+E:\workspace\demo-camunda-resilience-patterns\stripe-fake-service\obj\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.RazorAssemblyInfo.cache
+E:\workspace\demo-camunda-resilience-patterns\stripe-fake-service\obj\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.RazorAssemblyInfo.cs
+E:\workspace\demo-camunda-resilience-patterns\stripe-fake-service\obj\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.AssemblyInfoInputs.cache
+E:\workspace\demo-camunda-resilience-patterns\stripe-fake-service\obj\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.AssemblyInfo.cs
+E:\workspace\demo-camunda-resilience-patterns\stripe-fake-service\obj\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.RazorTargetAssemblyInfo.cache
+E:\workspace\demo-camunda-resilience-patterns\stripe-fake-service\obj\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.dll
+E:\workspace\demo-camunda-resilience-patterns\stripe-fake-service\obj\Debug\netcoreapp2.2\demo-camunda-resilience-patterns.pdb
