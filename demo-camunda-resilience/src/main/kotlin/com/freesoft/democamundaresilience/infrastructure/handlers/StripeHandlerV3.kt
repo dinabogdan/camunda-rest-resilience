@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate
 import org.springframework.web.client.postForObject
 
 @Component
-class StripeHandler(private val restTemplate: RestTemplate) : JavaDelegate {
+class StripeHandlerV3(private val restTemplate: RestTemplate) : JavaDelegate {
 
     companion object {
         const val stripeChargeUrl = "http://localhost:8099/charge"

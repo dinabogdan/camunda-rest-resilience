@@ -16,7 +16,7 @@ class PaymentRestControllerV3(private val camunda: ProcessEngine) {
     fun createFlowDefinition() {
         val flow = Bpmn.createExecutableProcess("paymentV3_Stateful_Retry")
                 .startEvent()
-                .serviceTask("stripe").camundaDelegateExpression("#{stripeHandler}")
+                .serviceTask("stripe").camundaDelegateExpression("#{stripeHandlerV3}")
                 .camundaAsyncBefore().camundaFailedJobRetryTimeCycle("R3/PT2S")
                 .endEvent()
                 .done()
