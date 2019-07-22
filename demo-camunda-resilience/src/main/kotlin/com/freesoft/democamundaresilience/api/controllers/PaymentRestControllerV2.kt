@@ -7,6 +7,7 @@ import com.netflix.hystrix.HystrixCommandGroupKey
 import org.springframework.web.bind.annotation.PutMapping
 import org.springframework.web.bind.annotation.RestController
 import org.springframework.web.client.RestTemplate
+import org.springframework.web.client.postForObject
 import java.util.*
 import javax.servlet.http.HttpServletResponse
 
