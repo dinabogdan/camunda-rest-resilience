@@ -9,6 +9,10 @@ import java.util.*
 import javax.annotation.PostConstruct
 import javax.servlet.http.HttpServletResponse
 
+/**
+ * Third version: Use Camunda state machine for long-running retry
+ */
+
 @RestController
 class PaymentRestControllerV3(private val camunda: ProcessEngine) {
 

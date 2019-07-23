@@ -11,6 +11,10 @@ import java.util.concurrent.TimeUnit
 import javax.annotation.PostConstruct
 import javax.servlet.http.HttpServletResponse
 
+/**
+ * Fourth version: Use Camunda state machine for long running retry and do a best effort for providing a synchronous response at first
+ */
+
 @RestController
 class PaymentRestControllerV4(private val camunda: ProcessEngine) {
 
