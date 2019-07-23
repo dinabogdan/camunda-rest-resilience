@@ -9,6 +9,16 @@ import java.util.concurrent.Semaphore
 class NotifySemaphoreHandler : JavaDelegate {
 
     companion object {
+        fun aNewSemaphore(traceId: String): Semaphore {
+            val semaphore = Semaphore(0)
+            semaphores.put(traceId, semaphore)
+            return semaphore
+        }
+
+        fun removeSemaphore(traceId: String) {
+            semaphores.remove(traceId)
+        }
+
         val semaphores = mutableMapOf<String, Semaphore>()
     }
 
