@@ -23,7 +23,7 @@ class ChargeCreditCardHandler(private val restTemplate: RestTemplate) : JavaDele
                 request,
                 CreateChargeResponse::class.java
         )
-
+        println(response?.errorCode)
         if (response?.errorCode != null && response.errorCode.isNotEmpty()) {
             context.setVariable("creditCardErrorCode", response.errorCode)
             throw BpmnError("Error_CreditCardError")
